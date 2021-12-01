@@ -1,13 +1,16 @@
 package myhw.lesson8;
 
+import java.util.Scanner;
+
 public class Reverse {
 
 // 3. Reverse (Напишите программу для переворачивания строки,
 // изменив расположение символов в строке задом наперёд без использования встроенных в String функций.)
 
     public static void reversedString() {
-        String str = "wanted to convert it into a PizzaStatusEnum? ";
-        System.out.println("Initial string: " + str);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter string:");
+        String str = scanner.nextLine();
         String rev = "";
 
         for (int i = 0; i < str.length(); i++) {

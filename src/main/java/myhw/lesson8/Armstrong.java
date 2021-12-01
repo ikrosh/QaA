@@ -1,5 +1,7 @@
 package myhw.lesson8;
 
+import java.util.Scanner;
+
 public class Armstrong {
 
 //2. Armstrong (Напишите программу для проверки является ли введенное число - числом Армстронга.
@@ -9,8 +11,11 @@ public class Armstrong {
 //Если у вас число четырехзначное:
 //8208 = 8*8*8*8 + 2*2*2*2 + 0*0*0*0 + 8*8*8*8 = 4096 + 16 + 0 + 4096 = 8208)
 
-    public static void checkArmstrong() {
-        int number = 8208;
+    public static void checkArmstrongNumber() {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number:");
+        int number = scanner.nextInt();
         char[] str = String.valueOf(number).toCharArray();
         int len = str.length;
         int sum = 0;

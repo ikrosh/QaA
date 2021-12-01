@@ -79,7 +79,7 @@ public class Login {
                         EvenNumber.evenNumber();
                         break;
                     case 2:
-                        Armstrong.checkArmstrong();
+                        Armstrong.checkArmstrongNumber();
                         break;
                     case 3:
                         Reverse.reversedString();
