@@ -29,7 +29,4 @@ public class FractionNumbers {
         return "Number a: " + a + " and number b: " + b;
     }
 
-
-
-
 }
