@@ -8,14 +8,11 @@ public class Replace {
 // Выводит новую строку на экран. Добавить обработку длины строки, максимальная длина 30 символов.
 // Строка может состоять из нескольких слов и любых символов)
 
-    public static void replace() {
+    public void replaceString() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter string:");
         String str = scanner.nextLine();
-        replaceString(str);
-    }
 
-    public static void replaceString(String str) {
         if (str.length() > 30) {
             System.out.println("The string is too long!");
         } else {

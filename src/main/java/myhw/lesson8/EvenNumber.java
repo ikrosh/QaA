@@ -7,8 +7,7 @@ public class EvenNumber {
 // 2. Even Number (Напишите программу которая определяет, является ли число четным или нет.
 // Проверять только целые числа. Добавить обработку ошибок с описанием.)
 
-     public static void evenNumber() {
-
+     public void checkEvenNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number:");
         String str = scanner.nextLine();

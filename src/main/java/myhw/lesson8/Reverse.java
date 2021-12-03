@@ -7,7 +7,7 @@ public class Reverse {
 // 3. Reverse (Напишите программу для переворачивания строки,
 // изменив расположение символов в строке задом наперёд без использования встроенных в String функций.)
 
-    public static void reversedString() {
+    public void reversedString() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter string:");
         String str = scanner.nextLine();

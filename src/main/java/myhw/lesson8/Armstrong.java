@@ -11,8 +11,7 @@ public class Armstrong {
 //Если у вас число четырехзначное:
 //8208 = 8*8*8*8 + 2*2*2*2 + 0*0*0*0 + 8*8*8*8 = 4096 + 16 + 0 + 4096 = 8208)
 
-    public static void checkArmstrongNumber() {
-
+    public void checkArmstrongNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number:");
         int number = scanner.nextInt();
