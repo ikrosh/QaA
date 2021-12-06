@@ -29,13 +29,5 @@ public class Book {
     public String getInfo() {
         return  "Книгa " + name + " - автор " + author;
     }
-//
-//    public String getInfo() {
-//        return "{" +
-//                "name='" + name + '\'' +
-//                ", author='" + author + '\'' +
-//                '}';
-//    }
-
 
 }
